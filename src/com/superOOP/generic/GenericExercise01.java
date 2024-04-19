@@ -10,6 +10,7 @@ import java.util.Comparator;
 public class GenericExercise01 {
     public static void main(String[] args) {
         ArrayList<Employee> employees = new ArrayList<>();
+        // 员工添加
         employees.add(new Employee("aaron", 120,new MyDate(6, 22, 2005)));
         employees.add(new Employee("aaron", 120,new MyDate(7, 22, 2005)));
         employees.add(new Employee("aaron", 120,new MyDate(8, 22, 2005)));
