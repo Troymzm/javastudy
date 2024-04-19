@@ -1,4 +1,4 @@
-package com.superOOP.generic.customgeneric;
+package com.superOOP.generic.customgeneric_;
 
 /**
  * @author mzm
