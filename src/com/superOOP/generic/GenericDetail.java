@@ -1,4 +1,4 @@
-package com.superOOP.generic_;
+package com.superOOP.generic;
 
 import java.util.ArrayList;
 import java.util.List;
