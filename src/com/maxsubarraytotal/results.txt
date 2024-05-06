@@ -1,0 +1,2 @@
+Max sum from file: 45
+Max sum from database: 45
