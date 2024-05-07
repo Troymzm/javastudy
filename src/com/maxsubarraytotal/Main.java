@@ -37,8 +37,6 @@ public class Main {
         // 将结果输出到文件或数据库
         writeResultToFile("E:\\code\\ideaJava\\javastudy_git\\src\\com\\maxsubarraytotal\\results.txt", maxSum1, maxSum2);
         writeResultToDatabase(maxSum1, maxSum2);
-
-        // 关闭文件或数据库连接
     }
     private static void writeResultToFile(String filePath, int maxSum1, int maxSum2) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
