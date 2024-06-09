@@ -54,6 +54,10 @@ public class Recorder {
         Recorder.allEnemyTankNum = allEnemyTankNum;
     }
 
+    public static String getRecordFile() {
+        return recordFile;
+    }
+
     // 当我方击毁一辆坦克就allEnemyTankNum++
     public static void addAllEnemyTankNum() {
         Recorder.allEnemyTankNum++;
